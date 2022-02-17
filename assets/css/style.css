@@ -103,3 +103,8 @@ color: #024e76;
   width: 100%;
   margin-bottom: 15px;
 }
+
+.hero-foem label {
+    margin: 0 5px;
+    color:#024e76;
+}
