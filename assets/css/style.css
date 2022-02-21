@@ -209,6 +209,7 @@ color: #024e76;
 }
 
 .trainer-bio h3 {
+    color: #fce138;
     font-size: 32px;
     margin-bottom: 8px;
 }
@@ -225,6 +226,7 @@ color: #024e76;
 }
 
 .contact{
+    text-align: center;
     background-color: #024e76;
 }
 .contact h2{
