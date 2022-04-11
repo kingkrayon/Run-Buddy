@@ -11,7 +11,10 @@ body{
 
 header {
     padding: 20px 35px;
-    background-color: #39a6b2
+    background-color: #39a6b2;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -19,7 +22,6 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
 }
 
 header a {
@@ -28,35 +30,39 @@ header a {
 }
 
 header nav {
-    float: right;
     margin: 8px 0;
 }
 
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.5vw;
 }
 
 footer {
+    display:flex;
     background:#fce138;
     width: 100%;
     padding: 40px 35px;
 }
 
 footer h2 {
-    display: inline;
     color: #024e76;
     font-size: 30px;
     margin: 0;
 }
 
 footer div {
-    float: right;
+    justify-content: space-between;
+    flex-wrap: wrap;
     line-height: 1.5;
     text-align: right;
 }
